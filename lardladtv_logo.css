@@ -18,3 +18,12 @@
 #loginPage .manualLoginForm:not(.hide) h1.sectionTitle::before {
   background-size: 100% !important;
 }
+
+:root {
+  --custom-favicon: url("https://cdn.jsdelivr.net/gh/oli94/Jellyfin_Extras@main/logos/favicon.ico");
+}
+
+link[rel="icon"],
+link[rel="shortcut icon"] {
+  content: var(--custom-favicon) !important;
+}
